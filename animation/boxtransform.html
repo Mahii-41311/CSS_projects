@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transform</title>
+    <style>
+        .sq1{
+            border: 1px solid red;
+            width: 80px;
+            height: 80px;
+            animation: sq1 5s ease-in-out infinite;
+        }
+        @keyframes sq1{
+            0%{transform: translateX(100px);}
+        }
+         .sq2{
+            border: 1px solid pink;
+            width: 80px;
+            height: 80px;
+            animation: sq2 5s ease-in-out infinite;
+           margin-top: 20px;
+        }
+        @keyframes sq2{
+        from{transform: rotate(30deg)}
+        to{transform:rotate(360deg)}
+        }
+         .sq3{
+            border: 1px solid pink;
+            width: 80px;
+            height: 80px;
+            animation: sq3 5s ease-in-out infinite;
+           margin-top: 50px;
+           margin-left: 80px;
+        }
+        @keyframes sq3{
+        10%{transform: scale(1)}
+        50%{transform:scale(2)}
+        100%{transform: scale(3);}
+        }
+    </style>
+</head>
+<body>
+    <div class="sq1"> Transform-Translate</div>
+    <div class="sq2"> Transform-Rotate</div>
+    <div class="sq3"> Transform-Scale</div>
+    <div class="sq4"> </div>
+    <div class="sq5"> </div>
+    <div class="sq6"> </div>
+
+</body>
+</html>

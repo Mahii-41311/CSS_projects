@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    .image{
+        position: relative;
+        animation:emoji 5s ease-in-out infinite;
+    }
+
+@keyframes emoji{
+    0%{top:0%;left: 30px;background-color: red;}
+    25%{bottom:10px;left: 50px;background-color: yellow;}
+    50%{top:30px;left: 65px;background-color: blue;}
+    75%{bottom:50px;left:80px;background-color: chocolate;}
+    100%{top:100px;left: 100px;background-color: aqua;}
+}
+</style>
+<body>
+    <div>
+        <img src="../animation/emoji.jpg" alt="emoji" class="image"/>
+    </div>
+</body>
+</html>
